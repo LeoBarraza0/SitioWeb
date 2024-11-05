@@ -14,14 +14,27 @@
     width: 80%;               /* Ancho relativo al contenedor padre */      /* Ancho máximo para pantallas grandes */
     height: 100%;  
               /* Altura de la imagen */
-    background-image: url('/SitioWeb/src/images/fondopag.png'); /* Reemplaza con la ruta real de tu imagen */
+    background-image: url('/SitioWeb/src/images/fondoo.png'); /* Reemplaza con la ruta real de tu imagen */
     background-size: cover;   /* Ajusta la imagen para cubrir el contenedor */
     background-position: top; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     border-radius: 10px;      /* Opcional: bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra para efecto de profundidad */
 }
-p{
+p, li, a, h3{
     font-family: "PT Sans", sans-serif;
     font-size: 30px;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(170, 57, 57);
+    color: rgb(246, 243, 210);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: rgb(111, 114, 62);
 }
