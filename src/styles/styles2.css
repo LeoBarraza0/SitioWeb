@@ -14,7 +14,7 @@
     width: 80%;               /* Ancho relativo al contenedor padre */      /* Ancho máximo para pantallas grandes */
     height: 100%;  
               /* Altura de la imagen */
-    background-image: url('/SitioWeb/src/images/fondopag.png'); /* Reemplaza con la ruta real de tu imagen */
+    background-image: url('/src/images/fondopag.png'); /* Reemplaza con la ruta real de tu imagen */
     background-size: cover;   /* Ajusta la imagen para cubrir el contenedor */
     background-position: top; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -38,3 +38,58 @@ p, li, a, h3{
 .boton:hover {
     background-color: rgb(111, 114, 62);
 }
+
+label{
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    color: #f0f0f0
+}
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+   padding-right: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    resize: none;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+

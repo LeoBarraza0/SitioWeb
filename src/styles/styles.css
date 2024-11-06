@@ -14,7 +14,7 @@
     width: 80%;               /* Ancho relativo al contenedor padre */      /* Ancho máximo para pantallas grandes */
     height: 100%;  
               /* Altura de la imagen */
-    background-image: url('/SitioWeb/src/images/fondoo.png'); /* Reemplaza con la ruta real de tu imagen */
+    background-image: url('/src/images/fondoo.png'); /* Reemplaza con la ruta real de tu imagen */
     background-size: cover;   /* Ajusta la imagen para cubrir el contenedor */
     background-position: top; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
